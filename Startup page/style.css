@@ -1,7 +1,4 @@
-/*body {
-	background-image: url(aa.jpg);
-	background-size: cover;
-}*/
+
 body,
 html {
   width: 100%;
@@ -9,18 +6,17 @@ html {
 }
 
 body {
-  font-family: fantasy;
-  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: red; 
+  border-color: #F05F44; 
 }*/
 
 .faded {
-  color: crimson; 
+  color: rgba(255, 000, 000, 0.8); 
 }
 
 header.startup {
@@ -36,15 +32,14 @@ header.startup hr {
 }
 
 header.startup h1 {
-  font-size: 3rem;
-  border-bottom: 2px solid red; 
+  font-size: 2rem; 
 }
 
 .btn {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
-  font-family: fantasy;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-xl {
